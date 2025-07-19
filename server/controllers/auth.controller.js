@@ -1,6 +1,6 @@
 import bcrypt from 'bcrypt';
 import jwt from 'jsonwebtoken';
-import User from '../models/User.js';
+import User from '../models/user.js';
 
 const JWT_SECRET = process.env.JWT_SECRET || 'supersecret'; // Лучше вынести в .env
 
